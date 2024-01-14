@@ -1,8 +1,8 @@
 # The Seedcase Data Repository
 
-Repository to store data we use for testing and demo purposes. All data is either fake, synthetically generated, or completely open.
+This repository contains the data we use for testing and demo purposes. All data is either fake, synthetically generated, or completely open.
 
-For now this repo is being used to store both guidance on how to create a synthetic data set, as well as a set of files that can be used to test various instances of Seedcase.
+For now this repo is being used to store both the instructions on how to create a synthetic data set, as well as a set of data files that can be used for various test purposes for Seedcase software.
 
 ## Our Data Need
 
@@ -12,8 +12,8 @@ We need data that:
 
 1. is in a recognised format (for now we focus our attention on csv)
 2. is in a clean and consistent format (we will be testing data with missing values later)
-3. bears resemblance to the medical research data which we are mainly focussed on accommodating
-4. does not in any way have any connection to data on real people
+3. is similar to or mimics the medical research data which we are mainly focused on
+4. does not have any connection to data on real people (is completely fake)
 5. have enough individual tables that we can test linking them in the backend
 6. is not under any form of copyright and free to use in a software product that may in future be used by commercial entities
 
@@ -23,15 +23,15 @@ We looked at a number of data sets available online but most didn't fulfil the l
 
 We have decided to work with the software Synthea from [SyntheaHealth](https://github.com/synthetichealth) and generate a standard set of csv files with as few alterations as possible.
 
-#### Pros
+### Pros
 
 * It fulfils all of the items in the list above
 * It is easy to use
 * It has excellent documentation
 
-#### Cons
+### Cons
 
-* Installation of software which will need to be kept updated
+* Installation of software will need to be kept updated
 * What you see is what you get in terms of columns and data formats
 
 ### How To Use Synthea
