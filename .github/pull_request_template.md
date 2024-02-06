@@ -17,13 +17,6 @@ Otherwise, delete any sections that don't apply.
 - This PR {removes/adds/fixes/replaces} the {feature/bug/issue/documentation/tests}.
 - These changes are done because of ... {reasons for change/why you're doing it}.
 
-## Type of Review
-<!--
-Please delete the option that doesn't apply
--->
-- Needs a quick review
-- Needs an in-depth review
-
 ## Related Issues
 
 <!-- List issues the PR closes -->
@@ -43,6 +36,9 @@ See also Issues #...
 <!-- Please explain why the tests are not needed for this PR here -->
 
 ## Reviewer Focus
+<!-- Please delete as appropriate: -->
+This PR only needs a quick review.
+This PR requires an in-depth review.
 
 <!-- Any particular section the reviewer should focus on, anywhere that would be a good place to start? -->
 
